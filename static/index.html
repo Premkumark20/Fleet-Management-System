@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fleet Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Fleet Management System</h1>
+    <form id="fleet-form">
+        <h2>Locations (comma-separated):</h2>
+        <input type="text" id="locations" placeholder="A,B,C,D,E" required>
+        <h2>Vehicles (format: Name@Location, comma-separated):</h2>
+        <input type="text" id="vehicles" placeholder="Truck1@A,Truck2@D" required>
+        <h2>Deliveries (comma-separated):</h2>
+        <input type="text" id="deliveries" placeholder="B,C,E" required>
+        <button type="submit">Optimize Routes</button>
+    </form>
+    <div id="dashboard-container">
+      <div id="map" style="height: 350px;"></div>
+      <div id="stats-panel">
+        <canvas id="stats-chart" width="350" height="200"></canvas>
+        <div id="stats-summary"></div>
+        <button id="simulate-btn">Simulate Delivery</button>
+      </div>
+    </div>
+    <div id="result"></div>
+    <script src="main.js"></script>
+</body>
+</html>
