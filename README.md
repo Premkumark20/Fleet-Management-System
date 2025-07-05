@@ -2,7 +2,9 @@
 
 A comprehensive web-based fleet management and route optimization system that helps businesses efficiently manage their vehicle fleets, optimize delivery routes, and simulate delivery operations.
 
-![Fleet Management System](./images/DeliverySimulation.png)
+<p align="center">
+  <img src="./images/DeliverySimulation.png" alt="Fleet Management System" width="600">
+</p>
 
 ## 🌟 Features
 
@@ -51,19 +53,27 @@ A comprehensive web-based fleet management and route optimization system that he
 ## 📸 Screenshots
 
 ### Main Dashboard
-![Dashboard](./images/Dashboard.png)
+<div align="center">
+  <img src="./images/Dashboard.png" alt="Dashboard" width="700">
+</div>
 *Fleet Management System main interface with input forms for locations, vehicles, and deliveries*
 
 ### Route Optimization Interface
-![Route Optimization](./images/RouteOptimization.png)
+<div align="center">
+  <img src="./images/RouteOptimization.png" alt="Route Optimization" width="700">
+</div>
 *Route optimization panel showing efficient delivery paths*
 
 ### Fleet Management Panel
-![Fleet Management](./images/FleetManagement.png)
+<div align="center">
+  <img src="./images/FleetManagement.png" alt="Fleet Management" width="700">
+</div>
 *Vehicle management interface with tracking capabilities*
 
 ### Delivery Simulation
-![Delivery Simulation](./images/DeliverySimulation.png)
+<div align="center">
+  <img src="./images/DeliverySimulation.png" alt="Delivery Simulation" width="700">
+</div>
 *Delivery simulation feature for testing different scenarios*
 
 ## 🏗️ Installation & Setup
