@@ -2,7 +2,7 @@
 
 A comprehensive web-based fleet management and route optimization system that helps businesses efficiently manage their vehicle fleets, optimize delivery routes, and simulate delivery operations.
 
-![Fleet Management System](https://via.placeholder.com/800x400/1e293b/ffffff?text=Fleet+Management+System)
+![Fleet Management System](./images/DeliverySimulation.png)
 
 ## 🌟 Features
 
@@ -50,17 +50,21 @@ A comprehensive web-based fleet management and route optimization system that he
 
 ## 📸 Screenshots
 
-### Dashboard Overview
-![Dashboard](https://via.placeholder.com/600x400/3b82f6/ffffff?text=Dashboard+Overview)
+### Main Dashboard
+![Dashboard](./images/Dashboard.png)
+*Fleet Management System main interface with input forms for locations, vehicles, and deliveries*
 
 ### Route Optimization Interface
-![Route Optimization](https://via.placeholder.com/600x400/10b981/ffffff?text=Route+Optimization)
+![Route Optimization](./images/RouteOptimization.png)
+*Route optimization panel showing efficient delivery paths*
 
 ### Fleet Management Panel
-![Fleet Management](https://via.placeholder.com/600x400/f59e0b/ffffff?text=Fleet+Management)
+![Fleet Management](./images/FleetManagement.png)
+*Vehicle management interface with tracking capabilities*
 
 ### Delivery Simulation
-![Delivery Simulation](https://via.placeholder.com/600x400/ef4444/ffffff?text=Delivery+Simulation)
+![Delivery Simulation](./images/DeliverySimulation.png)
+*Delivery simulation feature for testing different scenarios*
 
 ## 🏗️ Installation & Setup
 
@@ -101,36 +105,36 @@ A comprehensive web-based fleet management and route optimization system that he
 ## 🎯 How It Works
 
 ### 1. **Input Management**
-- Enter multiple locations (comma-separated)
-- Add vehicles with their assigned locations using the format: `VehicleName@Location`
-- Specify delivery destinations
+- **Locations**: Enter multiple locations (comma-separated) where your fleet operates
+- **Vehicles**: Add vehicles with their assigned locations using the format: `VehicleName@Location`
+- **Deliveries**: Specify delivery destinations that need to be served
 
 ### 2. **Route Optimization**
 - Click "Optimize Routes" to calculate the most efficient delivery paths
 - The system analyzes distances, traffic patterns, and vehicle capacity
-- Generates optimized route suggestions for each vehicle
+- Generates optimized route suggestions for each vehicle to minimize travel time and fuel consumption
 
 ### 3. **Delivery Simulation**
-- Use "Simulate Delivery" to test different scenarios
+- Use "Simulate Delivery" to test different scenarios before actual deployment
 - Preview estimated delivery times and resource utilization
-- Adjust parameters based on simulation results
+- Adjust parameters based on simulation results to improve efficiency
 
 ### 4. **Fleet Monitoring**
 - Track vehicle locations and status in real-time
 - Monitor delivery progress and performance metrics
-- Generate reports for fleet utilization and efficiency
+- Generate reports for fleet utilization and efficiency analysis
 
 ## 🏢 Use Cases
 
-- **Logistics Companies**: Optimize delivery routes and reduce fuel costs
-- **E-commerce Businesses**: Improve last-mile delivery efficiency
-- **Food Delivery Services**: Minimize delivery time and maximize customer satisfaction
+- **Logistics Companies**: Optimize delivery routes and reduce fuel costs by up to 25%
+- **E-commerce Businesses**: Improve last-mile delivery efficiency and customer satisfaction
+- **Food Delivery Services**: Minimize delivery time and maximize order fulfillment
 - **Field Service Companies**: Efficiently schedule and route service technicians
 
 ## 📊 Performance Benefits
 
 - **Cost Reduction**: Up to 25% savings in fuel and operational costs
-- **Time Optimization**: Reduced delivery times through efficient routing
+- **Time Optimization**: Reduced delivery times through efficient routing algorithms
 - **Resource Utilization**: Better allocation of vehicles and drivers
 - **Customer Satisfaction**: Improved delivery reliability and speed
 
@@ -162,12 +166,35 @@ We welcome contributions to improve the Fleet Management System! Here's how you 
    ```
 5. **Open a Pull Request**
 
-## Developer
-### Development Team  
+## 👥 Development Team
 
-- **[Premkumar K](https://github.com/premkumark20)** – Optimization & Documentation
-- **[Sairam L](https://github.com/sairam5566)** – Architecture & Deployment  
-- **[Monishkumar US](https://github.com/monishkumar0110)** – Development & Features
+- **[Premkumar K](https://github.com/Premkumark20)** – Lead Developer & Project Manager
+- **[Sairam L](https://github.com/sairam5566)** – Backend Architecture & Deployment
+- **[Monishkumar US](https://github.com/monishkumar0110)** – Frontend Development & UI/UX
+
+## 📱 Project Structure
+
+```
+Fleet-Management-System/
+├── index.html              # Main application entry point
+├── css/
+│   └── style.css          # Application styling
+├── js/
+│   ├── main.js           # Core application logic
+│   ├── route-optimizer.js # Route optimization algorithms
+│   └── simulation.js     # Delivery simulation features
+├── images/               # Screenshots and assets
+│   ├── banner.png
+│   ├── dashboard.png
+│   ├── route-optimization.png
+│   ├── fleet-panel.png
+│   └── simulation.png
+└── README.md            # Project documentation
+```
+
+## 🐛 Bug Reports & Feature Requests
+
+If you encounter any bugs or have feature requests, please create an issue on our [GitHub Issues](https://github.com/Premkumark20/Fleet-Management-System/issues) page.
 
 ## 📝 License
 
