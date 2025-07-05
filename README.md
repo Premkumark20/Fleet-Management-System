@@ -193,12 +193,6 @@ Fleet-Management-System/
 │   ├── main.js           # Core application logic
 │   ├── route-optimizer.js # Route optimization algorithms
 │   └── simulation.js     # Delivery simulation features
-├── images/               # Screenshots and assets
-│   ├── banner.png
-│   ├── dashboard.png
-│   ├── route-optimization.png
-│   ├── fleet-panel.png
-│   └── simulation.png
 └── README.md            # Project documentation
 ```
 
